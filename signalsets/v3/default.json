@@ -91,10 +91,6 @@
   "signals": [
     {"id": "A4_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
   ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "210F"}, "freq": 900,
-  "signals": [
-    {"id": "A4_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
-  ]},
 { "hdr": "7E1", "dbg": true, "cmd": {"22": "0303"}, "freq": 900,
   "signals": [
     {"id": "A4_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (eco)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
@@ -106,6 +102,10 @@
 { "hdr": "7E1", "dbg": true, "cmd": {"22": "0305"}, "freq": 900,
   "signals": [
     {"id": "A4_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "210F"}, "freq": 900,
+  "signals": [
+    {"id": "A4_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
 { "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 30,
   "signals": [
