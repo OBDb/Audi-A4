@@ -1,0 +1,36 @@
+{ "commands": [
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 5,
+  "signals": [
+    {"id": "A4_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0302"}, "freq": 300,
+  "signals": [
+    {"id": "A4_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0303"}, "freq": 300,
+  "signals": [
+    {"id": "A4_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (eco)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0304"}, "freq": 300,
+  "signals": [
+    {"id": "A4_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (sport)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0305"}, "freq": 300,
+  "signals": [
+    {"id": "A4_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 2,
+  "signals": [
+    {"id": "A4_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+          "1": { "description": "First gear",   "value": "1" },
+          "2": { "description": "Second gear",  "value": "2" },
+          "3": { "description": "Third gear",   "value": "3" },
+          "4": { "description": "Fourth gear",  "value": "4" },
+          "5": { "description": "Fifth gear",   "value": "5" },
+          "6": { "description": "Sixth gear",   "value": "6" },
+          "7": { "description": "Seventh gear", "value": "7" }
+        }}
+    }
+  ]}
+]
+}
