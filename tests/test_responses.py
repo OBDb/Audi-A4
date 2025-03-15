@@ -7,33 +7,40 @@ from typing import Dict, Any
 # These will be imported from the schemas repository
 from schemas.python.can_frame import CANIDFormat
 from schemas.python.json_formatter import format_file
-from schemas.python.signals_testing import obd_testrunner
+from schemas.python.signals_testing import obd_testrunner_by_year
 
 REPO_ROOT = Path(__file__).parent.parent.absolute()
 
 TEST_CASES = [
-    # TODO: Implement real tests below with vehicle data.
-    # 2019 model year
     {
-        "model_year": "2019",
-        "signalset": "default.json",
+        "model_year": 2017,
         "tests": [
-            # # Tire pressures
-            # ("72E05622813028C", {"F150_TP_FL": 32.6}),
-            # ("72E056228140273", {"F150_TP_FR": 31.35}),
-            # ("72E056228150291", {"F150_TP_RRO": 32.85}),
-            # ("72E05622816026E", {"F150_TP_RLO": 31.1}),
-            # ("72E056228170000", {"F150_TP_RRI": 0.0}),
-            # ("72E056228180000", {"F150_TP_RLI": 0.0}),
+            # Odometer
+            ("7E80662295A01F4E0", {"A4_ODO": 128224.0}),
+            ("7E80662295A01F515", {"A4_ODO": 128277.0}),
+
+            # Drive time
+            ("7E9056203023CB6", {"A4_DRIVE_TIME": 3885.5}),
+            ("7E9056203023CBA", {"A4_DRIVE_TIME": 3886.5}),
+
+            # Drive time (eco)
+            ("7E904620303EE", {"A4_DRIVE_TIME_ECO": 95.2}),
+
+            # Drive time (sport)
+            ("7E9046203040A", {"A4_DRIVE_TIME_SPORT": 4.0}),
+
+            # Drive time (manual)
+            ("7E90462030500", {"A4_DRIVE_TIME_MANUAL": 0}),
+
+            # Gear
+            ("7E90462210F01", {"A4_GEAR": "1"}),
+            ("7E90462210F03", {"A4_GEAR": "3"}),
+            ("7E90462210F05", {"A4_GEAR": "5"}),
+            ("7E90462210F06", {"A4_GEAR": "6"}),
+            ("7E90462210F07", {"A4_GEAR": "7"}),
         ]
     },
 ]
-
-def load_signalset(filename: str) -> str:
-    """Load a signalset JSON file from the standard location."""
-    signalset_path = REPO_ROOT / "signalsets" / "v3" / filename
-    with open(signalset_path) as f:
-        return f.read()
 
 @pytest.mark.parametrize(
     "test_group",
@@ -42,13 +49,11 @@ def load_signalset(filename: str) -> str:
 )
 def test_signals(test_group: Dict[str, Any]):
     """Test signal decoding against known responses."""
-    signalset_json = load_signalset(test_group["signalset"])
-
     # Run each test case in the group
     for response_hex, expected_values in test_group["tests"]:
         try:
-            obd_testrunner(
-                signalset_json,
+            obd_testrunner_by_year(
+                test_group['model_year'],
                 response_hex,
                 expected_values,
                 can_id_format=CANIDFormat.ELEVEN_BIT
@@ -56,8 +61,7 @@ def test_signals(test_group: Dict[str, Any]):
         except Exception as e:
             pytest.fail(
                 f"Failed on response {response_hex} "
-                f"(Model Year: {test_group['model_year']}, "
-                f"Signalset: {test_group['signalset']}): {e}"
+                f"(Model Year: {test_group['model_year']}: {e}"
             )
 
 def get_json_files():
