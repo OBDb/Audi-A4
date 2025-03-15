@@ -19,6 +19,22 @@
   "signals": [
     {"id": "A4_ODO_3", "path": "Trips", "fmt": { "len": 32, "max": 255, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
 { "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
   "signals": [
     {"id": "A4_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
@@ -106,22 +122,6 @@
 { "hdr": "7E1", "dbg": true, "cmd": {"22": "210F"}, "freq": 900,
   "signals": [
     {"id": "A4_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 30,
-  "signals": [
-    {"id": "A4_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 30,
-  "signals": [
-    {"id": "A4_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 30,
-  "signals": [
-    {"id": "A4_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
-  ]},
-{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 30,
-  "signals": [
-    {"id": "A4_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
 ]
 }
