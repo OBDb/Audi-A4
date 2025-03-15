@@ -1,4 +1,20 @@
 { "commands": [
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 30,
+  "signals": [
+    {"id": "A4_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "295A"}, "freq": 5,
   "signals": [
     {"id": "A4_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
