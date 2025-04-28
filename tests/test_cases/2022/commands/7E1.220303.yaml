@@ -1,0 +1,10 @@
+command_id: 7E1.220303
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E904620303D3
+  expected_values:
+    A4_DRIVE_TIME_ECO: 84.4
+- response: 7E904620303D4
+  expected_values:
+    A4_DRIVE_TIME_ECO: 84.8
