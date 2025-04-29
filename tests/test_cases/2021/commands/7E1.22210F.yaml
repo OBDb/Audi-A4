@@ -5,3 +5,6 @@ test_cases:
 - response: 7E90462210F01
   expected_values:
     A4_GEAR: 1
+- response: 7E90462210F07
+  expected_values:
+    A4_GEAR: 7
