@@ -1,0 +1,22 @@
+command_id: 7E0.2210E0
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E8076210E00002783C
+  expected_values:
+    A4_ODO_2: 161852
+- response: 7E8076210E00002783D
+  expected_values:
+    A4_ODO_2: 161853
+- response: 7E8076210E000027843
+  expected_values:
+    A4_ODO_2: 161859
+- response: 7E8076210E000027872
+  expected_values:
+    A4_ODO_2: 161906
+- response: 7E8076210E000027873
+  expected_values:
+    A4_ODO_2: 161907
+- response: 7E8076210E000027875
+  expected_values:
+    A4_ODO_2: 161909

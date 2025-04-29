@@ -1,0 +1,70 @@
+command_id: 7E0.22295A
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E80662295A00B102
+  expected_values:
+    A4_ODO: 45314
+- response: 7E80662295A00B103
+  expected_values:
+    A4_ODO: 45315
+- response: 7E80662295A00B104
+  expected_values:
+    A4_ODO: 45316
+- response: 7E80662295A00B105
+  expected_values:
+    A4_ODO: 45317
+- response: 7E80662295A00B106
+  expected_values:
+    A4_ODO: 45318
+- response: 7E80662295A00B107
+  expected_values:
+    A4_ODO: 45319
+- response: 7E80662295A00B108
+  expected_values:
+    A4_ODO: 45320
+- response: 7E80662295A00B109
+  expected_values:
+    A4_ODO: 45321
+- response: 7E80662295A00B10A
+  expected_values:
+    A4_ODO: 45322
+- response: 7E80662295A00B10B
+  expected_values:
+    A4_ODO: 45323
+- response: 7E80662295A00B10C
+  expected_values:
+    A4_ODO: 45324
+- response: 7E80662295A00B10E
+  expected_values:
+    A4_ODO: 45326
+- response: 7E80662295A00B10F
+  expected_values:
+    A4_ODO: 45327
+- response: 7E80662295A00B110
+  expected_values:
+    A4_ODO: 45328
+- response: 7E80662295A00B111
+  expected_values:
+    A4_ODO: 45329
+- response: 7E80662295A00B112
+  expected_values:
+    A4_ODO: 45330
+- response: 7E80662295A00B113
+  expected_values:
+    A4_ODO: 45331
+- response: 7E80662295A00B114
+  expected_values:
+    A4_ODO: 45332
+- response: 7E80662295A00B115
+  expected_values:
+    A4_ODO: 45333
+- response: 7E80662295A00B116
+  expected_values:
+    A4_ODO: 45334
+- response: 7E80662295A00B117
+  expected_values:
+    A4_ODO: 45335
+- response: 7E80662295A00B118
+  expected_values:
+    A4_ODO: 45336
