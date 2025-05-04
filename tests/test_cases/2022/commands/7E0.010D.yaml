@@ -1,0 +1,121 @@
+command_id: 7E0.010D
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: 7E803410D00
+  expected_values:
+    VSS: 0
+- response: 7E803410D05
+  expected_values:
+    VSS: 5
+- response: 7E803410D09
+  expected_values:
+    VSS: 9
+- response: 7E803410D0F
+  expected_values:
+    VSS: 15
+- response: 7E803410D10
+  expected_values:
+    VSS: 16
+- response: 7E803410D11
+  expected_values:
+    VSS: 17
+- response: 7E803410D17
+  expected_values:
+    VSS: 23
+- response: 7E803410D18
+  expected_values:
+    VSS: 24
+- response: 7E803410D19
+  expected_values:
+    VSS: 25
+- response: 7E803410D1C
+  expected_values:
+    VSS: 28
+- response: 7E803410D1D
+  expected_values:
+    VSS: 29
+- response: 7E803410D1F
+  expected_values:
+    VSS: 31
+- response: 7E803410D20
+  expected_values:
+    VSS: 32
+- response: 7E803410D26
+  expected_values:
+    VSS: 38
+- response: 7E803410D27
+  expected_values:
+    VSS: 39
+- response: 7E803410D2D
+  expected_values:
+    VSS: 45
+- response: 7E803410D30
+  expected_values:
+    VSS: 48
+- response: 7E803410D31
+  expected_values:
+    VSS: 49
+- response: 7E803410D3A
+  expected_values:
+    VSS: 58
+- response: 7E803410D3C
+  expected_values:
+    VSS: 60
+- response: 7E803410D42
+  expected_values:
+    VSS: 66
+- response: 7E803410D46
+  expected_values:
+    VSS: 70
+- response: 7E803410D49
+  expected_values:
+    VSS: 73
+- response: 7E803410D4C
+  expected_values:
+    VSS: 76
+- response: 7E803410D4E
+  expected_values:
+    VSS: 78
+- response: 7E803410D51
+  expected_values:
+    VSS: 81
+- response: 7E803410D52
+  expected_values:
+    VSS: 82
+- response: 7E803410D53
+  expected_values:
+    VSS: 83
+- response: 7E803410D57
+  expected_values:
+    VSS: 87
+- response: 7E803410D5E
+  expected_values:
+    VSS: 94
+- response: 7E803410D5F
+  expected_values:
+    VSS: 95
+- response: 7E803410D66
+  expected_values:
+    VSS: 102
+- response: 7E803410D69
+  expected_values:
+    VSS: 105
+- response: 7E803410D6A
+  expected_values:
+    VSS: 106
+- response: 7E803410D6E
+  expected_values:
+    VSS: 110
+- response: 7E803410D6F
+  expected_values:
+    VSS: 111
+- response: 7E803410D71
+  expected_values:
+    VSS: 113
+- response: 7E803410D72
+  expected_values:
+    VSS: 114
+- response: 7E803410D75
+  expected_values:
+    VSS: 117

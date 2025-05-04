@@ -1034,3 +1034,84 @@ test_cases:
 - response: 7E80662295A003F8D
   expected_values:
     A4_ODO: 16269
+- response: 7E80662295A0043CA
+  expected_values:
+    A4_ODO: 17354
+- response: 7E80662295A0043CB
+  expected_values:
+    A4_ODO: 17355
+- response: 7E80662295A0043CC
+  expected_values:
+    A4_ODO: 17356
+- response: 7E80662295A0043CD
+  expected_values:
+    A4_ODO: 17357
+- response: 7E80662295A0043E3
+  expected_values:
+    A4_ODO: 17379
+- response: 7E80662295A0043E4
+  expected_values:
+    A4_ODO: 17380
+- response: 7E80662295A0043E5
+  expected_values:
+    A4_ODO: 17381
+- response: 7E80662295A0043F7
+  expected_values:
+    A4_ODO: 17399
+- response: 7E80662295A0043F8
+  expected_values:
+    A4_ODO: 17400
+- response: 7E80662295A0043F9
+  expected_values:
+    A4_ODO: 17401
+- response: 7E80662295A0043FA
+  expected_values:
+    A4_ODO: 17402
+- response: 7E80662295A0043FB
+  expected_values:
+    A4_ODO: 17403
+- response: 7E80662295A0043FC
+  expected_values:
+    A4_ODO: 17404
+- response: 7E80662295A0043FD
+  expected_values:
+    A4_ODO: 17405
+- response: 7E80662295A0043FE
+  expected_values:
+    A4_ODO: 17406
+- response: 7E80662295A0043FF
+  expected_values:
+    A4_ODO: 17407
+- response: 7E80662295A004426
+  expected_values:
+    A4_ODO: 17446
+- response: 7E80662295A004427
+  expected_values:
+    A4_ODO: 17447
+- response: 7E80662295A004428
+  expected_values:
+    A4_ODO: 17448
+- response: 7E80662295A004429
+  expected_values:
+    A4_ODO: 17449
+- response: 7E80662295A00442A
+  expected_values:
+    A4_ODO: 17450
+- response: 7E80662295A00442B
+  expected_values:
+    A4_ODO: 17451
+- response: 7E80662295A004430
+  expected_values:
+    A4_ODO: 17456
+- response: 7E80662295A004431
+  expected_values:
+    A4_ODO: 17457
+- response: 7E80662295A004432
+  expected_values:
+    A4_ODO: 17458
+- response: 7E80662295A004433
+  expected_values:
+    A4_ODO: 17459
+- response: 7E80662295A004434
+  expected_values:
+    A4_ODO: 17460
