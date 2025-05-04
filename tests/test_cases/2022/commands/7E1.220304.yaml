@@ -2,6 +2,9 @@ command_id: 7E1.220304
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: '7E90462030423'
+  expected_values:
+    A4_DRIVE_TIME_SPORT: 14
 - response: '7E90462030425'
   expected_values:
     A4_DRIVE_TIME_SPORT: 14.8
