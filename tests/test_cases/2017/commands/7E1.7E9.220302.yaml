@@ -26,3 +26,6 @@ test_cases:
 - response: 7E9056203023CBD
   expected_values:
     A4_DRIVE_TIME: 3887.25
+- response: 7E9056203023DE5
+  expected_values:
+    A4_DRIVE_TIME: 3961.25
