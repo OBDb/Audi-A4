@@ -5,66 +5,12 @@ test_cases:
 - response: 7E8056211BA2655
   expected_values:
     A4_OIL_LEVEL: 39.252
-- response: 7E8056211BA2856
-  expected_values:
-    A4_OIL_LEVEL: 41.304
-- response: 7E8056211BA2A81
-  expected_values:
-    A4_OIL_LEVEL: 43.524
-- response: 7E8056211BA2B46
-  expected_values:
-    A4_OIL_LEVEL: 44.312
-- response: 7E8056211BA2D53
-  expected_values:
-    A4_OIL_LEVEL: 46.412
-- response: 7E8056211BA31DC
-  expected_values:
-    A4_OIL_LEVEL: 51.056
-- response: 7E8056211BA3613
-  expected_values:
-    A4_OIL_LEVEL: 55.372
-- response: 7E8056211BA36F7
-  expected_values:
-    A4_OIL_LEVEL: 56.284
-- response: 7E8056211BA377C
-  expected_values:
-    A4_OIL_LEVEL: 56.816
-- response: 7E8056211BA3819
-  expected_values:
-    A4_OIL_LEVEL: 57.444
 - response: 7E8056211BA390A
   expected_values:
     A4_OIL_LEVEL: 58.408
-- response: 7E8056211BA3940
-  expected_values:
-    A4_OIL_LEVEL: 58.624
-- response: 7E8056211BA39E2
-  expected_values:
-    A4_OIL_LEVEL: 59.272
-- response: 7E8056211BA3A28
-  expected_values:
-    A4_OIL_LEVEL: 59.552
-- response: 7E8056211BA3A5A
-  expected_values:
-    A4_OIL_LEVEL: 59.752
-- response: 7E8056211BA3BB3
-  expected_values:
-    A4_OIL_LEVEL: 61.132
-- response: 7E8056211BA3D88
-  expected_values:
-    A4_OIL_LEVEL: 63.008
-- response: 7E8056211BA3E21
-  expected_values:
-    A4_OIL_LEVEL: 63.62
-- response: 7E8056211BA3EAA
-  expected_values:
-    A4_OIL_LEVEL: 64.168
 - response: 7E8056211BA40FC
   expected_values:
     A4_OIL_LEVEL: 66.544
-- response: 7E8056211BA42B1
+- response: 7E8056211BA5845
   expected_values:
-    A4_OIL_LEVEL: 68.292
-- response: 7E8056211BA452B
-  expected_values:
-    A4_OIL_LEVEL: 70.828
+    A4_OIL_LEVEL: 90.388
