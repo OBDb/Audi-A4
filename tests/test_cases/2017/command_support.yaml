@@ -74,10 +74,10 @@ unsupported_commands_by_ecu:
   710:
   - 710.222A0A
   713:
-  - 713.222B1B
-  - 713.222B1C
-  - 713.222B1D
-  - 713.222B1E
+  - 713.222B1B:A4_TIRE_FL_SPD
+  - 713.222B1C:A4_TIRE_FR_SPD
+  - 713.222B1D:A4_TIRE_RL_SPD
+  - 713.222B1E:A4_TIRE_RR_SPD
   714:
   - 714.22202F
   - '714.222203'
@@ -104,3 +104,6 @@ unsupported_commands_by_ecu:
   - 7E1.222B1C
   - 7E1.222B1D
   - 7E1.222B1E
+  - 7E1.7E9.010D
+  7E4:
+  - 7E4.7EC.010D
