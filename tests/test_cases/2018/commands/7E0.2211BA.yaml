@@ -2,6 +2,15 @@ command_id: 7E0.2211BA
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
+- response: 7E8056211BA3DD3
+  expected_values:
+    A4_OIL_LEVEL: 63.308
+- response: 7E8056211BA42FA
+  expected_values:
+    A4_OIL_LEVEL: 68.584
+- response: 7E8056211BA4609
+  expected_values:
+    A4_OIL_LEVEL: 71.716
 - response: 7E8056211BA59B0
   expected_values:
     A4_OIL_LEVEL: 91.84

@@ -1,10 +1,10 @@
-command_id: 7E1.22210F
+command_id: 7E0.010D
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E90462210F02
+- response: 7E803410D00
   expected_values:
-    A4_GEAR: 2
-- response: 7E90462210F05
+    VSS: 0
+- response: 7E803410D47
   expected_values:
-    A4_GEAR: 5
+    VSS: 71
