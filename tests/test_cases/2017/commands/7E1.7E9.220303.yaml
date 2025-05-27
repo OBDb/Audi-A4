@@ -1,7 +1,8 @@
 command_id: 7E1.7E9.220303
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E904620303EE
   expected_values:
     A4_DRIVE_TIME_ECO: 95.2
+- response: 7E904620303F7
+  expected_values:
+    A4_DRIVE_TIME_ECO: 98.8

@@ -1,10 +1,8 @@
 command_id: 7E0.7E8.22295A
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80662295A01F4E0
+- response: 7E80662295A015B27
   expected_values:
-    A4_ODO: 128224
+    A4_ODO: 88871
 - response: 7E80662295A01F4FF
   expected_values:
     A4_ODO: 128255
