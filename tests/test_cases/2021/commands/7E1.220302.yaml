@@ -1,6 +1,4 @@
 command_id: 7E1.220302
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E9056203020DB1
   expected_values:
@@ -14,3 +12,9 @@ test_cases:
 - response: '7E9056203021287'
   expected_values:
     A4_DRIVE_TIME: 1185.75
+- response: 7E90562030237DF
+  expected_values:
+    A4_DRIVE_TIME: 3575.75
+- response: '7E9056203023807'
+  expected_values:
+    A4_DRIVE_TIME: 3585.75

@@ -1,7 +1,8 @@
 command_id: 7E0.0146
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E80341463A
   expected_values:
     AAT: 18
+- response: '7E803414648'
+  expected_values:
+    AAT: 32
