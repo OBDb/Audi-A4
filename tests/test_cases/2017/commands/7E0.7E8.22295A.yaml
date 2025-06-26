@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22295A
 test_cases:
-- response: 7E80662295A015B27
-  expected_values:
+- expected_values:
     A4_ODO: 88871
-- response: 7E80662295A01F4FF
-  expected_values:
+  response: 7E80662295A015B27
+- expected_values:
     A4_ODO: 128255
-- response: 7E80662295A01F500
-  expected_values:
+  response: 7E80662295A01F4FF
+- expected_values:
     A4_ODO: 128256
-- response: 7E80662295A02062A
-  expected_values:
+  response: 7E80662295A01F500
+- expected_values:
     A4_ODO: 132650
+  response: 7E80662295A02062A

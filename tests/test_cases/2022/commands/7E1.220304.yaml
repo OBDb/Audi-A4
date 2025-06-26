@@ -1,14 +1,14 @@
 command_id: 7E1.220304
 test_cases:
-- response: '7E90462030422'
-  expected_values:
+- expected_values:
     A4_DRIVE_TIME_SPORT: 13.6
-- response: '7E90462030423'
-  expected_values:
+  response: '7E90462030422'
+- expected_values:
     A4_DRIVE_TIME_SPORT: 14
-- response: '7E90462030425'
-  expected_values:
+  response: '7E90462030423'
+- expected_values:
     A4_DRIVE_TIME_SPORT: 14.8
-- response: '7E90462030426'
-  expected_values:
+  response: '7E90462030425'
+- expected_values:
     A4_DRIVE_TIME_SPORT: 15.2
+  response: '7E90462030426'

@@ -1,20 +1,20 @@
 command_id: 7E1.220302
 test_cases:
-- response: 7E90562030228E4
-  expected_values:
+- expected_values:
     A4_DRIVE_TIME: 2617
-- response: 7E90562030228E5
-  expected_values:
+  response: 7E90562030228E4
+- expected_values:
     A4_DRIVE_TIME: 2617.25
-- response: 7E90562030228E9
-  expected_values:
+  response: 7E90562030228E5
+- expected_values:
     A4_DRIVE_TIME: 2618.25
-- response: 7E90562030228EA
-  expected_values:
+  response: 7E90562030228E9
+- expected_values:
     A4_DRIVE_TIME: 2618.5
-- response: 7E90562030228EE
-  expected_values:
+  response: 7E90562030228EA
+- expected_values:
     A4_DRIVE_TIME: 2619.5
-- response: 7E90562030228FA
-  expected_values:
+  response: 7E90562030228EE
+- expected_values:
     A4_DRIVE_TIME: 2622.5
+  response: 7E90562030228FA

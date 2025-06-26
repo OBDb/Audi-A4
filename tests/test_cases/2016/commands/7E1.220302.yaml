@@ -1,8 +1,11 @@
 command_id: 7E1.220302
 test_cases:
-- response: 7E905620302218C
-  expected_values:
+- expected_values:
+    A4_DRIVE_TIME: 1796.5
+  response: 7E9056203021C12
+- expected_values:
     A4_DRIVE_TIME: 2147
-- response: 7E90562030221EA
-  expected_values:
+  response: 7E905620302218C
+- expected_values:
     A4_DRIVE_TIME: 2170.5
+  response: 7E90562030221EA

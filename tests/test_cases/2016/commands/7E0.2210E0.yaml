@@ -1,14 +1,17 @@
 command_id: 7E0.2210E0
 test_cases:
-- response: 7E8076210E000021F98
-  expected_values:
+- expected_values:
+    A4_ODO_2: 108476
+  response: 7E8076210E00001A7BC
+- expected_values:
+    A4_ODO_2: 108600
+  response: 7E8076210E00001A838
+- expected_values:
     A4_ODO_2: 139160
-- response: 7E8076210E000021FFF
-  expected_values:
+  response: 7E8076210E000021F98
+- expected_values:
     A4_ODO_2: 139263
-- response: 7E8076210E000022000
-  expected_values:
+  response: 7E8076210E000021FFF
+- expected_values:
     A4_ODO_2: 139264
-- response: 7E8076210E00002250D
-  expected_values:
-    A4_ODO_2: 140557
+  response: 7E8076210E000022000

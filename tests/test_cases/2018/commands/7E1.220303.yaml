@@ -1,5 +1,5 @@
 command_id: 7E1.220303
 test_cases:
-- response: 7E904620303E9
-  expected_values:
+- expected_values:
     A4_DRIVE_TIME_ECO: 93.2
+  response: 7E904620303E9
