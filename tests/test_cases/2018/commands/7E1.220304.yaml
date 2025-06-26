@@ -1,5 +1,5 @@
 command_id: 7E1.220304
 test_cases:
-- response: '7E90462030411'
-  expected_values:
+- expected_values:
     A4_DRIVE_TIME_SPORT: 6.8
+  response: '7E90462030411'

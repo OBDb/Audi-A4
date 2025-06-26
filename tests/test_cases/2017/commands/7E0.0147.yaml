@@ -1,20 +1,20 @@
 command_id: 7E0.0147
 test_cases:
-- response: 7E80341471E
-  expected_values:
+- expected_values:
     TP_B: 11.76471
-- response: '7E803414720'
-  expected_values:
+  response: 7E80341471E
+- expected_values:
     TP_B: 12.54902
-- response: '7E803414724'
-  expected_values:
+  response: '7E803414720'
+- expected_values:
     TP_B: 14.11765
-- response: '7E803414727'
-  expected_values:
+  response: '7E803414724'
+- expected_values:
     TP_B: 15.29412
-- response: 7E80341472B
-  expected_values:
+  response: '7E803414727'
+- expected_values:
     TP_B: 16.86275
-- response: 7E8034147C3
-  expected_values:
+  response: 7E80341472B
+- expected_values:
     TP_B: 76.47059
+  response: 7E8034147C3

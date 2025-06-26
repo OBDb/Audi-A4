@@ -1,14 +1,14 @@
 command_id: 7E1.22210F
 test_cases:
-- response: 7E90462210F02
-  expected_values:
+- expected_values:
     A4_GEAR: 2
-- response: 7E90462210F03
-  expected_values:
+  response: 7E90462210F02
+- expected_values:
     A4_GEAR: 3
-- response: 7E90462210F04
-  expected_values:
+  response: 7E90462210F03
+- expected_values:
     A4_GEAR: 4
-- response: 7E90462210F0A
-  expected_values:
+  response: 7E90462210F04
+- expected_values:
     A4_GEAR: 10
+  response: 7E90462210F0A

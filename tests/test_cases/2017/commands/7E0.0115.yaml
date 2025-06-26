@@ -1,30 +1,30 @@
 command_id: 7E0.0115
 test_cases:
-- response: 7E80441158AFF
-  expected_values:
+- expected_values:
     O2S12: 0.69
     SHRTFT11: 99.21875
-- response: 7E80441158EFF
-  expected_values:
+  response: 7E80441158AFF
+- expected_values:
     O2S12: 0.71
     SHRTFT11: 99.21875
-- response: 7E804411596FF
-  expected_values:
+  response: 7E80441158EFF
+- expected_values:
     O2S12: 0.75
     SHRTFT11: 99.21875
-- response: 7E804411599FF
-  expected_values:
+  response: 7E804411596FF
+- expected_values:
     O2S12: 0.765
     SHRTFT11: 99.21875
-- response: 7E80441159AFF
-  expected_values:
+  response: 7E804411599FF
+- expected_values:
     O2S12: 0.77
     SHRTFT11: 99.21875
-- response: 7E80441159EFF
-  expected_values:
+  response: 7E80441159AFF
+- expected_values:
     O2S12: 0.79
     SHRTFT11: 99.21875
-- response: 7E8044115A0FF
-  expected_values:
+  response: 7E80441159EFF
+- expected_values:
     O2S12: 0.8
     SHRTFT11: 99.21875
+  response: 7E8044115A0FF

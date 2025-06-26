@@ -1,11 +1,11 @@
 command_id: 7E0.22295A
 test_cases:
-- response: 7E80662295A015225
-  expected_values:
+- expected_values:
     A4_ODO: 86565
-- response: 7E80662295A0152FF
-  expected_values:
+  response: 7E80662295A015225
+- expected_values:
     A4_ODO: 86783
-- response: 7E80662295A0153D9
-  expected_values:
+  response: 7E80662295A0152FF
+- expected_values:
     A4_ODO: 87001
+  response: 7E80662295A0153D9
