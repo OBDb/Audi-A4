@@ -136,6 +136,8 @@ unsupported_commands_by_ecu:
   - '715.222357'
   "746":
   - 746.2227C4
+  "7DF":
+  - 7DF.010D
   "7E0":
   - 7E0.2210E0
   - 7E0.2211BA
@@ -149,3 +151,7 @@ unsupported_commands_by_ecu:
   - 7E1.7E9.010D
   "7E4":
   - 7E4.7EC.010D
+  "D016":
+  - D016.22EE6F
+  "D01A":
+  - D01A.224028
