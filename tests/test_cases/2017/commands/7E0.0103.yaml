@@ -8,3 +8,7 @@ test_cases:
     FUELSYS1: CL
     FUELSYS2: OL-Drive
   response: '7E80441030204'
+- expected_values:
+    FUELSYS1: OL-Drive
+    FUELSYS2: OL-Drive
+  response: '7E80441030404'
