@@ -1,26 +1,8 @@
 command_id: 7E0.0143
 test_cases:
 - expected_values:
-    LOAD_ABS: 15.29412
-  response: '7E80441430027'
-- expected_values:
-    LOAD_ABS: 18.43137
-  response: 7E8044143002F
-- expected_values:
-    LOAD_ABS: 19.60784
-  response: '7E80441430032'
-- expected_values:
-    LOAD_ABS: 37.2549
-  response: 7E8044143005F
-- expected_values:
-    LOAD_ABS: 59.21569
-  response: '7E80441430097'
-- expected_values:
-    LOAD_ABS: 61.17647
-  response: 7E8044143009C
-- expected_values:
-    LOAD_ABS: 70.58824
-  response: 7E804414300B4
+    LOAD_ABS: 12.94118
+  response: '7E80441430021'
 - expected_values:
     LOAD_ABS: 71.37255
   response: 7E804414300B6
