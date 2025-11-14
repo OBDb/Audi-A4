@@ -4,5 +4,5 @@ test_cases:
     TAC_PCT: 1.56863
   response: 7E803414C04
 - expected_values:
-    TAC_PCT: 90.98039
-  response: 7E803414CE8
+    TAC_PCT: 100
+  response: 7E803414CFF
