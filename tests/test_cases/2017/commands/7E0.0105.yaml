@@ -4,5 +4,5 @@ test_cases:
     ECT: 71
   response: 7E80341056F
 - expected_values:
-    ECT: 104
-  response: '7E803410590'
+    ECT: 107
+  response: '7E803410593'
