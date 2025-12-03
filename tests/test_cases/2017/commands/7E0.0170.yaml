@@ -98,3 +98,17 @@ test_cases:
   response: |-
     7E8100C41700209FA0C
     7E82179000000000000
+- expected_values:
+    BP_A_ACT: 100.4375
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 80.34375
+    BP_A_CMD_SUP: 0
+    BP_A_SUP: 0
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    7E8100C4170020A0B0C
+    7E8218E000000000000
