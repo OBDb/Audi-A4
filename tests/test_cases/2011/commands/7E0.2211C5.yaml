@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     A4_OIL_MIN: 0.008
   response: 7E8056211C50002
+- expected_values:
+    A4_OIL_MIN: 0.012
+  response: 7E8056211C50003
