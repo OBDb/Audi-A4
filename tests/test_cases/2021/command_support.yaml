@@ -130,8 +130,12 @@ unsupported_commands_by_ecu:
   - 7E0.2211C4:A4_OIL_MAX
   - 7E0.2211C5:A4_OIL_MIN
   "7E1":
+  - 7E1.7E9.0104
+  - 7E1.7E9.0105
   - 7E1.7E9.010D
   - 7E1.7E9.0142
   "7E4":
+  - 7E4.7EC.0104
+  - 7E4.7EC.0105
   - 7E4.7EC.010D
   - 7E4.7EC.0142
