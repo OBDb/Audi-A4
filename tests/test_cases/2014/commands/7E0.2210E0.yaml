@@ -1,8 +1,8 @@
 command_id: 7E0.2210E0
 test_cases:
 - expected_values:
-    A4_ODO_2: 180862
-  response: 7E8076210E00002C27E
+    A4_ODO_2: 149847
+  response: 7E8076210E000024957
 - expected_values:
     A4_ODO_2: 181503
   response: 7E8076210E00002C4FF
