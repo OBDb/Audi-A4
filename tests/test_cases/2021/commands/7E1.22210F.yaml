@@ -27,3 +27,6 @@ test_cases:
 - expected_values:
     A4_GEAR: 8
   response: 7E90462210F08
+- expected_values:
+    A4_GEAR: 9
+  response: 7E90462210F09
