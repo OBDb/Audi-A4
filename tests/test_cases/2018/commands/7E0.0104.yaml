@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     LOAD_PCT: 8.62745
   response: '7E803410416'
+- expected_values:
+    LOAD_PCT: 10.19608
+  response: 7E80341041A
+- expected_values:
+    LOAD_PCT: 10.58824
+  response: 7E80341041B
+- expected_values:
+    LOAD_PCT: 10.98039
+  response: 7E80341041C
+- expected_values:
+    LOAD_PCT: 11.37255
+  response: 7E80341041D
+- expected_values:
+    LOAD_PCT: 12.15686
+  response: 7E80341041F

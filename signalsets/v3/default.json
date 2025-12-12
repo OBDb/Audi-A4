@@ -99,7 +99,7 @@
   "signals": [
     {"id": "A4_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level (min)"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2018], "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2023 },
   "signals": [
     {"id": "A4_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
