@@ -4,5 +4,5 @@ test_cases:
     VSS: 0
   response: 7E803410D00
 - expected_values:
-    VSS: 71
-  response: 7E803410D47
+    VSS: 94
+  response: 7E803410D5E
