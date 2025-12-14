@@ -4,5 +4,8 @@ test_cases:
     A4_ODO: 45314
   response: 7E80662295A00B102
 - expected_values:
-    A4_ODO: 45336
-  response: 7E80662295A00B118
+    A4_ODO: 52258
+  response: 7E80662295A00CC22
+- expected_values:
+    A4_ODO: 52259
+  response: 7E80662295A00CC23
