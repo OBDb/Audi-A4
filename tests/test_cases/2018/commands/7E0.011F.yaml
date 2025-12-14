@@ -4,11 +4,11 @@ test_cases:
     RUNTM: 29
   response: 7E804411F001D
 - expected_values:
-    RUNTM: 769
-  response: 7E804411F0301
+    RUNTM: 768
+  response: 7E804411F0300
 - expected_values:
-    RUNTM: 1021
-  response: 7E804411F03FD
+    RUNTM: 1535
+  response: 7E804411F05FF
 - expected_values:
-    RUNTM: 1540
-  response: 7E804411F0604
+    RUNTM: 4111
+  response: 7E804411F100F
