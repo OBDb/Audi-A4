@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     A4_DRIVE_TIME: 3134.75
   response: 7E90562030230FB
+- expected_values:
+    A4_DRIVE_TIME: 3146.75
+  response: 7E905620302312B
