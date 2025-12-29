@@ -150,3 +150,7 @@ unsupported_commands_by_ecu:
   - 7E0.2210E0:A4_ODO_2
   - 7E0.2211C4:A4_OIL_MAX
   - 7E0.22295A:A4_ODO
+  "7E1":
+  - 7E1.7E9.0104
+  - 7E1.7E9.0105
+  - 7E1.7E9.010D
