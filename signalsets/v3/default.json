@@ -99,27 +99,27 @@
   "signals": [
     {"id": "A4_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level (min)"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2016, "from": 2023 },
+{ "hdr": "7E0", "cmd": {"22": "295A"}, "freq": 30, "dbgfilter": { "to": 2016, "years": [2023], "from": 2025 },
   "signals": [
     {"id": "A4_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0302"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015], "from": 2023 },
+{ "hdr": "7E1", "cmd": {"22": "0302"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015, 2023], "from": 2025 },
   "signals": [
     {"id": "A4_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0303"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015], "from": 2023 },
+{ "hdr": "7E1", "cmd": {"22": "0303"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015, 2023], "from": 2025 },
   "signals": [
     {"id": "A4_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (eco)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0304"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015], "from": 2023 },
+{ "hdr": "7E1", "cmd": {"22": "0304"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015, 2023], "from": 2025 },
   "signals": [
     {"id": "A4_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (sport)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "0305"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015], "from": 2023 },
+{ "hdr": "7E1", "cmd": {"22": "0305"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015, 2023], "from": 2025 },
   "signals": [
     {"id": "A4_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
   ]},
-{ "hdr": "7E1", "cmd": {"22": "210F"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015], "from": 2023 },
+{ "hdr": "7E1", "cmd": {"22": "210F"}, "freq": 900, "dbgfilter": { "to": 2008, "years": [2010, 2015, 2023], "from": 2025 },
   "signals": [
     {"id": "A4_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]}
