@@ -1,0 +1,5 @@
+command_id: 7E1.220304
+test_cases:
+- expected_values:
+    A4_DRIVE_TIME_SPORT: 4
+  response: 7E9046203040A
