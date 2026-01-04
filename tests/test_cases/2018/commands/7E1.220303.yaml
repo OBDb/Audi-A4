@@ -4,5 +4,8 @@ test_cases:
     A4_DRIVE_TIME_ECO: 93.2
   response: 7E904620303E9
 - expected_values:
+    A4_DRIVE_TIME_ECO: 98
+  response: 7E904620303F5
+- expected_values:
     A4_DRIVE_TIME_ECO: 98.4
   response: 7E904620303F6
