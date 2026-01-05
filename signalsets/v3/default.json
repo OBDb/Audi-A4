@@ -83,11 +83,11 @@
   "signals": [
     {"id": "A4_WNDSHLD_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576, "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2015, 2017, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2015, 2017, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "A4_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (alternative)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2010, "years": [2015, 2017, 2019, 2020], "from": 2022 },
+{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2008, "years": [2010, 2015, 2017, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "A4_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
   ]},
