@@ -1,0 +1,5 @@
+command_id: 7E0.01A2
+test_cases:
+- expected_values:
+    CYL_RATE: 0
+  response: 7E80441A20000
