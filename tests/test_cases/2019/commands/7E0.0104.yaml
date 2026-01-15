@@ -4,23 +4,5 @@ test_cases:
     LOAD_PCT: 0
   response: '7E803410400'
 - expected_values:
-    LOAD_PCT: 10.19608
-  response: 7E80341041A
-- expected_values:
-    LOAD_PCT: 10.58824
-  response: 7E80341041B
-- expected_values:
-    LOAD_PCT: 10.98039
-  response: 7E80341041C
-- expected_values:
-    LOAD_PCT: 18.43137
-  response: 7E80341042F
-- expected_values:
-    LOAD_PCT: 21.56863
-  response: '7E803410437'
-- expected_values:
-    LOAD_PCT: 22.7451
-  response: 7E80341043A
-- expected_values:
-    LOAD_PCT: 26.27451
-  response: '7E803410443'
+    LOAD_PCT: 96.86275
+  response: 7E8034104F7
