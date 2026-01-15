@@ -3,6 +3,56 @@ test_cases:
 - expected_values:
     ACRFCMPL: 0
     ACRF_ENA: 0
+    AIR_CMPL: 1
+    AIR_ENA: 1
+    CAT_CMPL: 1
+    CAT_ENA: 1
+    CCM_CMPL: 0
+    CCM_ENA: 1
+    CIM_SUP_FLAG: COMPRESSION
+    EGR_CMPL: 0
+    EGR_ENA: 1
+    EVAPCMPL: 0
+    EVAP_ENA: 0
+    FUEL_CMPL: 0
+    FUEL_ENA: 1
+    HCATCMPL: 0
+    HCAT_ENA: 1
+    HTR_CMPL: 1
+    HTR_ENA: 1
+    MIS_CMPL: 0
+    MIS_ENA: 1
+    O2S_CMPL: 1
+    O2S_ENA: 1
+  response: 7E8064141000FEB69
+- expected_values:
+    ACRFCMPL: 0
+    ACRF_ENA: 0
+    AIR_CMPL: 1
+    AIR_ENA: 1
+    CAT_CMPL: 1
+    CAT_ENA: 1
+    CCM_CMPL: 0
+    CCM_ENA: 1
+    CIM_SUP_FLAG: COMPRESSION
+    EGR_CMPL: 0
+    EGR_ENA: 1
+    EVAPCMPL: 0
+    EVAP_ENA: 0
+    FUEL_CMPL: 0
+    FUEL_ENA: 1
+    HCATCMPL: 1
+    HCAT_ENA: 1
+    HTR_CMPL: 1
+    HTR_ENA: 1
+    MIS_CMPL: 0
+    MIS_ENA: 1
+    O2S_CMPL: 1
+    O2S_ENA: 1
+  response: 7E8064141000FEB6B
+- expected_values:
+    ACRFCMPL: 0
+    ACRF_ENA: 0
     AIR_CMPL: 0
     AIR_ENA: 0
     CAT_CMPL: 1
