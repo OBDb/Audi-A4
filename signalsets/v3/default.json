@@ -91,11 +91,11 @@
   "signals": [
     {"id": "A4_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11C4"}, "freq": 30,
+{ "hdr": "7E0", "cmd": {"22": "11C4"}, "freq": 30, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A4_OIL_MAX", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level (max)"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11C5"}, "freq": 30, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "cmd": {"22": "11C5"}, "freq": 30, "dbgfilter": { "to": 2010, "years": [2012, 2013], "from": 2015 },
   "signals": [
     {"id": "A4_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "centimeters" }, "name": "Oil level (min)"}
   ]},
