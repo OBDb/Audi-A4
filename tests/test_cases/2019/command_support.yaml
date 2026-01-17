@@ -37,6 +37,7 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 014A:APP_E
   - 014C:TAC_PCT
+  - 014F:MAX_EQ_RAT,MAX_MAP,MAX_O2_CURR,MAX_O2_VOLT
   - 0151:FUEL_TYP
   - 0156:LGSO2FT1
   - 015C:EOT
