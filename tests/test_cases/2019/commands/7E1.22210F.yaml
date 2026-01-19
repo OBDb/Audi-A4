@@ -7,5 +7,8 @@ test_cases:
     A4_GEAR: 2
   response: 7E90462210F02
 - expected_values:
+    A4_GEAR: 6
+  response: 7E90462210F06
+- expected_values:
     A4_GEAR: 8
   response: 7E90462210F08
