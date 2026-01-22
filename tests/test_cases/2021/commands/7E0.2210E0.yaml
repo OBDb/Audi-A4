@@ -4,5 +4,11 @@ test_cases:
     A4_ODO_2: 80966
   response: 7E8076210E000013C46
 - expected_values:
+    A4_ODO_2: 81151
+  response: 7E8076210E000013CFF
+- expected_values:
+    A4_ODO_2: 81152
+  response: 7E8076210E000013D00
+- expected_values:
     A4_ODO_2: 2147483647
   response: 7E8076210E07FFFFFFF
