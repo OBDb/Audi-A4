@@ -1,25 +1,28 @@
+references:
+  - "https://en.wikipedia.org/wiki/Audi_A4"
+
 generations:
   - name: "First Generation (B5)"
     start_year: 1994
     end_year: 2001
-    description: "The original Audi A4 replaced the Audi 80 and was built on the Volkswagen Group B5 platform. Available as a sedan and Avant (wagon), it featured a front-wheel drive layout with optional quattro all-wheel drive. Engine options included four and six-cylinder units. The B5 A4 established Audi's modern design language and helped elevate the brand as a serious competitor to BMW and Mercedes-Benz in the premium compact executive segment."
+    description: "The original Audi A4 replaced the Audi 80 and was built on the Volkswagen Group B5 platform, with production starting in November 1994. Available as a sedan and Avant (wagon), it featured a front-wheel drive layout with optional quattro all-wheel drive. Engine options included four and six-cylinder units ranging from 1.6L to 2.8L, plus diesel variants. The B5 A4 established Audi's modern design language and helped elevate the brand as a serious competitor to BMW and Mercedes-Benz in the premium compact executive segment. Significant facelifts were introduced in 1998 and 1999. The high-performance RS4 Avant was introduced in 1999."
 
   - name: "Second Generation (B6)"
-    start_year: 2001
-    end_year: 2005
-    description: "The B6 A4 featured a completely new design with a more sculpted body and a wider stance. It continued to offer sedan and Avant body styles, with the addition of the Cabriolet variant. The platform was revised for improved handling and safety. Engine options expanded to include a range of petrol and diesel units, including the high-performance S4 with its 4.2L V8 engine."
+    start_year: 2000
+    end_year: 2006
+    description: "The B6 A4 featured a completely new design with a more sculpted body and a wider stance, launched in 2000 with model years beginning in 2001. It continued to offer sedan and Avant body styles, with the addition of the Cabriolet variant (2002-2006). The platform was revised for improved handling and safety. Engine options expanded to include petrol and diesel units, with the high-performance S4 featuring a 4.2L V8 engine. A significant facelift was introduced in 2003."
 
   - name: "Third Generation (B7)"
-    start_year: 2005
+    start_year: 2004
     end_year: 2008
-    description: "The B7 represented an extensive redesign of the B6, featuring sharper styling with Audi's then-new single-frame grille. While mechanically similar to its predecessor, it introduced new technologies and refinements to the chassis and drivetrain. This generation also saw the introduction of the RS4 variant with a high-revving 4.2L V8 engine producing 420 HP."
+    description: "The B7 represented a heavily revised evolution of the B6, introduced in late 2004 with model year 2005. It featured sharper styling with Audi's then-new single-frame grille and introduced new technologies and refinements to the chassis and drivetrain. The sedan and Avant variants began in 2004, while the Cabriolet was added in 2006. This generation saw the introduction of the RS4 variant with a high-revving 4.2L V8 FSI engine producing 420 HP. The B7 continued through 2008, with the Cabriolet variant lasting through 2009."
 
   - name: "Fourth Generation (B8)"
-    start_year: 2008
-    end_year: 2016
-    description: "Built on the new Volkswagen Group MLB platform, the B8 A4 featured a longer wheelbase but shorter overhangs. It introduced new technologies including Audi Drive Select, adaptive dynamics, and LED lighting. Engine options included more efficient TFSI petrol and TDI diesel units with improvements in performance and fuel economy. A major facelift in 2012 updated the styling and technology offerings."
+    start_year: 2007
+    end_year: 2015
+    description: "Built on the new Volkswagen Group MLB (Modular Longitudinal Platform), the B8 A4 was unveiled in August 2007 and officially launched in October 2007, with model year 2009 for most markets. It featured a longer wheelbase and shorter overhangs compared to the B7. It introduced technologies including Audi Drive Select, adaptive dynamics, and LED daytime running lights. Engine options included efficient TFSI petrol and TDI diesel units with various power outputs. A significant facelift in 2012 (B8.5) updated the styling and technology offerings. North American models continued through 2016."
 
   - name: "Fifth Generation (B9)"
-    start_year: 2016
-    end_year: null
-    description: "The current B9 A4 is lighter than its predecessor despite being larger, thanks to extensive use of aluminum and high-strength steel. It features Audi's latest design language and technology including the Virtual Cockpit digital instrument cluster and advanced driver assistance systems approaching autonomous driving capability. Powertrain options include mild-hybrid technology for improved efficiency. A significant facelift in 2019 updated the exterior styling and interior technology. Throughout its iterations, the A4 remains Audi's core model, embodying the brand's values of progressive design, technology, and driving dynamics."
+    start_year: 2015
+    end_year: 2025
+    description: "The B9 A4 was revealed in June 2015 and officially launched at the Frankfurt Motor Show in September 2015, with production beginning in July 2015. Available in European markets as model year 2016 and North American markets as model year 2017. The B9 is slightly larger than the B8 but lighter thanks to aluminum-hybrid construction. It features the Virtual Cockpit digital instrument cluster, advanced driver assistance systems, Apple CarPlay, Android Auto, and full-color head-up display. A significant facelift (B9.5) was introduced in 2020 with redesigned headlights, taillights, and updated body panels. The A4 nameplate was discontinued in 2025, replaced by the redesigned Audi A5 under the company's new naming convention."
