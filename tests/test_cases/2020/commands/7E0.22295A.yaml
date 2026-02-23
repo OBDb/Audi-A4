@@ -1,6 +1,9 @@
 command_id: 7E0.22295A
 test_cases:
 - expected_values:
+    A4_ODO: 29664
+  response: 7E80662295A0073E0
+- expected_values:
     A4_ODO: 86565
   response: 7E80662295A015225
 - expected_values:
