@@ -17,8 +17,8 @@ test_cases:
     7E8100D416D030AD20A
     7E821D6000000000000
 - expected_values:
-    FRP_A: 58620
-    FRP_A_CMD: 59550
+    FRP_A: 28210
+    FRP_A_CMD: 28300
     FRP_A_CMD_SUP: 1
     FRP_A_SUP: 1
     FRP_B: 0
@@ -30,8 +30,56 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
   response: |-
-    7E8100D416D03174316
-    7E821E6000000000000
+    7E8100D416D030B0E0B
+    7E82105000000000000
+- expected_values:
+    FRP_A: 30700
+    FRP_A_CMD: 30500
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D030BEA0B
+    7E821FE000000000000
+- expected_values:
+    FRP_A: 48480
+    FRP_A_CMD: 48480
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D0312F012
+    7E821F0000000000000
+- expected_values:
+    FRP_A: 53780
+    FRP_A_CMD: 53750
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D0314FF15
+    7E82102000000000000
 - expected_values:
     FRP_A: 62710
     FRP_A_CMD: 61600
@@ -49,8 +97,8 @@ test_cases:
     7E8100D416D03181018
     7E8217F000000000000
 - expected_values:
-    FRP_A: 88410
-    FRP_A_CMD: 89280
+    FRP_A: 79820
+    FRP_A_CMD: 79410
     FRP_A_CMD_SUP: 1
     FRP_A_SUP: 1
     FRP_B: 0
@@ -62,5 +110,21 @@ test_cases:
     FRT_B: -40
     FRT_B_SUP: 0
   response: |-
-    7E8100D416D0322E022
-    7E82189000000000000
+    7E8100D416D031F051F
+    7E8212E000000000000
+- expected_values:
+    FRP_A: 125730
+    FRP_A_CMD: 126010
+    FRP_A_CMD_SUP: 1
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: -40
+    FRT_A_SUP: 0
+    FRT_B: -40
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D03313931
+    7E8211D000000000000
