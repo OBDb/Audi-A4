@@ -12,3 +12,9 @@ test_cases:
     ECT_2: -40
     ECT_2_SUP: 0
   response: '7E8054167018200'
+- expected_values:
+    ECT_1: 89
+    ECT_1_SUP: 1
+    ECT_2: 29
+    ECT_2_SUP: 1
+  response: '7E8054167038145'
