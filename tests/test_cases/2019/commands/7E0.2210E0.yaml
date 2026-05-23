@@ -24,3 +24,9 @@ test_cases:
 - expected_values:
     A4_ODO_2: 40539
   response: 7E8076210E000009E5B
+- expected_values:
+    A4_ODO_2: 40540
+  response: 7E8076210E000009E5C
+- expected_values:
+    A4_ODO_2: 40541
+  response: 7E8076210E000009E5D
