@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     A4_ODO_2: 40532
   response: 7E8076210E000009E54
+- expected_values:
+    A4_ODO_2: 40533
+  response: 7E8076210E000009E55
+- expected_values:
+    A4_ODO_2: 40534
+  response: 7E8076210E000009E56
+- expected_values:
+    A4_ODO_2: 40535
+  response: 7E8076210E000009E57
+- expected_values:
+    A4_ODO_2: 40536
+  response: 7E8076210E000009E58
+- expected_values:
+    A4_ODO_2: 40537
+  response: 7E8076210E000009E59
