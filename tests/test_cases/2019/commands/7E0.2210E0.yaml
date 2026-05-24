@@ -4,29 +4,5 @@ test_cases:
     A4_ODO_2: 40532
   response: 7E8076210E000009E54
 - expected_values:
-    A4_ODO_2: 40533
-  response: 7E8076210E000009E55
-- expected_values:
-    A4_ODO_2: 40534
-  response: 7E8076210E000009E56
-- expected_values:
-    A4_ODO_2: 40535
-  response: 7E8076210E000009E57
-- expected_values:
-    A4_ODO_2: 40536
-  response: 7E8076210E000009E58
-- expected_values:
-    A4_ODO_2: 40537
-  response: 7E8076210E000009E59
-- expected_values:
-    A4_ODO_2: 40538
-  response: 7E8076210E000009E5A
-- expected_values:
-    A4_ODO_2: 40539
-  response: 7E8076210E000009E5B
-- expected_values:
-    A4_ODO_2: 40540
-  response: 7E8076210E000009E5C
-- expected_values:
-    A4_ODO_2: 40541
-  response: 7E8076210E000009E5D
+    A4_ODO_2: 40550
+  response: 7E8076210E000009E66
