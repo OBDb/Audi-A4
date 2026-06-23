@@ -1,0 +1,5 @@
+command_id: 7E0.2211C4
+test_cases:
+- expected_values:
+    A4_OIL_MAX: 22.252
+  response: 7E8056211C415BB
