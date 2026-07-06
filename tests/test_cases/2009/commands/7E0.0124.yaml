@@ -1,21 +1,21 @@
 command_id: 7E0.0124
 test_cases:
 - expected_values:
-    LAMBDA11_VOLT: 0.09998
-    O2S11_VOLT: 0
-  response: 7E80641240CCC0000
+    LAMBDA11_VOLT: 0.07935
+    O2S11_VOLT: 0.0643
+  response: 7E80641240A28020F
 - expected_values:
-    LAMBDA11_VOLT: 0.12247
-    O2S11_VOLT: 0.07711
-  response: 7E80641240FAD0278
+    LAMBDA11_VOLT: 0.08374
+    O2S11_VOLT: 0
+  response: 7E80641240AB80000
+- expected_values:
+    LAMBDA11_VOLT: 0.08624
+    O2S11_VOLT: 0.06113
+  response: 7E80641240B0A01F5
 - expected_values:
     LAMBDA11_VOLT: 0.12497
     O2S11_VOLT: 0.07394
   response: 7E80641240FFF025E
-- expected_values:
-    LAMBDA11_VOLT: 0.12622
-    O2S11_VOLT: 0.07809
-  response: '7E806412410280280'
 - expected_values:
     LAMBDA11_VOLT: 0.28934
     O2S11_VOLT: 0.06747
