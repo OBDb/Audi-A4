@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     A4_DRIVE_TIME_MANUAL: 1.2
   response: '7E90462030503'
+- expected_values:
+    A4_DRIVE_TIME_MANUAL: 1.6
+  response: '7E90462030504'
