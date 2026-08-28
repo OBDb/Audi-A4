@@ -7,6 +7,9 @@ test_cases:
     A4_DRIVE_TIME_SPORT: 2.4
   response: '7E90462030406'
 - expected_values:
+    A4_DRIVE_TIME_SPORT: 3.6
+  response: '7E90462030409'
+- expected_values:
     A4_DRIVE_TIME_SPORT: 4
   response: 7E9046203040A
 - expected_values:
