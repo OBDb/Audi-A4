@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     A4_ODO: 77769
   response: 7E80662295A012FC9
+- expected_values:
+    A4_ODO: 110945
+  response: 7E80662295A01B161
