@@ -1,0 +1,14 @@
+command_id: 7E0.2211BA
+test_cases:
+- expected_values:
+    A4_OIL_LEVEL: 100.872
+  response: 7E8056211BA6282
+- expected_values:
+    A4_OIL_LEVEL: 103.46
+  response: 7E8056211BA6509
+- expected_values:
+    A4_OIL_LEVEL: 105.452
+  response: 7E8056211BA66FB
+- expected_values:
+    A4_OIL_LEVEL: 105.732
+  response: 7E8056211BA6741
