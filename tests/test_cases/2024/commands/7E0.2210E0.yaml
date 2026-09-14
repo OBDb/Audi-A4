@@ -18,3 +18,15 @@ test_cases:
 - expected_values:
     A4_ODO_2: 45442
   response: 7E8076210E00000B182
+- expected_values:
+    A4_ODO_2: 45480
+  response: 7E8076210E00000B1A8
+- expected_values:
+    A4_ODO_2: 45481
+  response: 7E8076210E00000B1A9
+- expected_values:
+    A4_ODO_2: 45482
+  response: 7E8076210E00000B1AA
+- expected_values:
+    A4_ODO_2: 45483
+  response: 7E8076210E00000B1AB
