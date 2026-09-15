@@ -1,8 +1,8 @@
 command_id: 7E0.2211BA
 test_cases:
 - expected_values:
-    A4_OIL_LEVEL: 100.872
-  response: 7E8056211BA6282
+    A4_OIL_LEVEL: 85.152
+  response: 7E8056211BA5328
 - expected_values:
     A4_OIL_LEVEL: 103.46
   response: 7E8056211BA6509
