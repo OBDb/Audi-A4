@@ -4,8 +4,8 @@ test_cases:
     A4_OIL_LEVEL: 67.652
   response: 7E8056211BA4211
 - expected_values:
-    A4_OIL_LEVEL: 92.184
-  response: 7E8056211BA5A06
+    A4_OIL_LEVEL: 97.292
+  response: 7E8056211BA5F03
 - expected_values:
     A4_OIL_LEVEL: 114.684
   response: 7E8056211BA6FFF
