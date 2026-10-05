@@ -1,0 +1,23 @@
+command_id: 7E1.7E9.220302
+test_cases:
+- expected_values:
+    A4_DRIVE_TIME: 2321.75
+  response: '7E9056203022447'
+- expected_values:
+    A4_DRIVE_TIME: 2331.5
+  response: 7E905620302246E
+- expected_values:
+    A4_DRIVE_TIME: 2332.5
+  response: '7E9056203022472'
+- expected_values:
+    A4_DRIVE_TIME: 3134.25
+  response: 7E90562030230F9
+- expected_values:
+    A4_DRIVE_TIME: 3134.75
+  response: 7E90562030230FB
+- expected_values:
+    A4_DRIVE_TIME: 3146.75
+  response: 7E905620302312B
+- expected_values:
+    A4_DRIVE_TIME: 3168.75
+  response: '7E9056203023183'
