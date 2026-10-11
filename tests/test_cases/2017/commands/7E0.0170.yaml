@@ -15,7 +15,7 @@ test_cases:
     7E8100C41700200000B
     7E821B4000000000000
 - expected_values:
-    BP_A_ACT: 95.8125
+    BP_A_ACT: 95.71875
     BP_A_ACT_SUP: 1
     BP_A_CMD: 0
     BP_A_CMD_SUP: 0
@@ -27,7 +27,7 @@ test_cases:
     BP_B_SUP: 0
   response: |-
     7E8100C41700200000B
-    7E821FA000000000000
+    7E821F7000000000000
 - expected_values:
     BP_A_ACT: 97
     BP_A_ACT_SUP: 1
