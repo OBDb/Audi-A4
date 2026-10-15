@@ -4,5 +4,12 @@ test_cases:
     LOAD_PCT: 0
   response: '7E803410400'
 - expected_values:
+    LOAD_PCT: 17.64706
+  response: |-
+    7E80341042D
+
+
+    ELM327 v2.1
+- expected_values:
     LOAD_PCT: 89.80392
   response: 7E8034104E5
