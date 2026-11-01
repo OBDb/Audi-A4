@@ -115,6 +115,7 @@ unsupported_commands_by_ecu:
   "746":
   - 746.2227C4|fc=1:A4_WNDSHLD_TEMP
   "7E0":
+  - 7E0.011F:RUNTM
   - 7E0.2210E0:A4_ODO_2
   - 7E0.2211BA:A4_OIL_LEVEL
   - 7E0.2211C4:A4_OIL_MAX
