@@ -51,7 +51,7 @@
   "signals": [
     {"id": "A4_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 255, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "229A"}, "freq": 30,
+{ "hdr": "714", "dbg": true, "cmd": {"22": "229A"}, "freq": 1,
   "signals": [
     {"id": "A4_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
