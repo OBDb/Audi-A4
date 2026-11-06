@@ -4,8 +4,8 @@ test_cases:
     RPM: 0
   response: 7E804410C0000
 - expected_values:
-    RPM: 1919.75
-  response: 7E804410C1DFF
+    RPM: 959.75
+  response: 7E804410C0EFF
 - expected_values:
-    RPM: 4979.25
-  response: 7E804410C4DCD
+    RPM: 5011.75
+  response: 7E804410C4E4F
