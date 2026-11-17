@@ -10,5 +10,8 @@ test_cases:
     A4_ODO_2: 153088
   response: 7E8076210E000025600
 - expected_values:
-    A4_ODO_2: 4294967295
+    A4_ODO_2: 182272
+  response: 7E8076210E00002C800
+- expected_values:
+    A4_ODO_2: null
   response: 7E8076210E0FFFFFFFF
